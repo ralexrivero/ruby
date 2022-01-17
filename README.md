@@ -4,8 +4,24 @@ Development foundations in Ruby
 
 ## Environment
 
+* Ubuntu 18.04
+* Vagrant: ubuntu/bionic64
+* ruby
+* irb - interactive ruby shell
+
 <!-- ruby -->
 [![Ruby](https://img.shields.io/static/v1?label=&message=Ruby&color=CC342D&logo=ruby&logoColor=E74C3C&labelColor=2F333A)](https://www.ruby-lang.org)
+
+## Run the code
+
+```bash
+vagrant@ubuntu-bionic:~$ irb
+irb(main):001:0> puts 'Hello World'
+Hello World
+=> nil
+irb(main):002:0> exit
+vagrant@ubuntu-bionic:~$
+```
 
 ## Autor
 
