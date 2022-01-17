@@ -14,12 +14,31 @@ Development foundations in Ruby
 
 ## Run the code
 
+### ** Interactive ruby shell: **
+
 ```bash
 vagrant@ubuntu-bionic:~$ irb
 irb(main):001:0> puts 'Hello World'
 Hello World
 => nil
 irb(main):002:0> exit
+vagrant@ubuntu-bionic:~$
+```
+
+### interpreter
+
+> Use de following command to run the code:
+
+```bash
+vagrant@ubuntu-bionic:~$ ruby filename.rb
+```
+
+```bash
+vagrant@ubuntu-bionic:~$ ruby 00-variables.rb
+30
+John
+1.75
+New York
 vagrant@ubuntu-bionic:~$
 ```
 
